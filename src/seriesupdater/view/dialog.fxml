@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<FlowPane maxHeight="200.0" maxWidth="400.0" minHeight="200.0" minWidth="400.0" prefHeight="200.0" prefWidth="400.0" style="-fx-background-radius: 10 10 10 10;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+<children><Pane layoutX="-67.0" layoutY="-4.0" prefHeight="26.0" prefWidth="400.0" style="-fx-background-color: linear-gradient(#808080,#505050);">
+<children><Label fx:id="dial_title" layoutX="13.0" layoutY="1.0" text="title" textFill="WHITE">
+<font>
+<Font size="16.0" />
+</font></Label>
+</children></Pane><Pane layoutX="-3.0" layoutY="-28.0" prefHeight="67.0" prefWidth="400.0" style="-fx-background-color: #f0f0f0; -fx-border-color: #c0c0c0;">
+<children><Label fx:id="dial_info" layoutX="14.0" layoutY="8.0" prefHeight="51.0" prefWidth="377.0" text="Information" /><ImageView fx:id="dial_img" fitHeight="42.0" fitWidth="42.0" layoutX="344.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true" />
+</children></Pane><AnchorPane prefHeight="107.0" prefWidth="400.0">
+<children><Label fx:id="dial_label" layoutX="14.0" prefHeight="62.0" prefWidth="260.0" text="Label" /><Button fx:id="dial_btn" alignment="BASELINE_RIGHT" contentDisplay="CENTER" layoutX="350.0" layoutY="64.0" mnemonicParsing="false" style="-fx-background-color: linear-gradient(rgb(64,173,251),rgb(4,124,212)); -fx-background-radius: 10 10 10 10; -fx-border-radius: 5 5 5 5; -fx-border-width: 2 2 2 2; -fx-border-color: rgb(103,207,253);" text="OK" textFill="#fffafa">
+<font>
+<Font size="13.0" />
+</font></Button><TextField fx:id="dial_field" layoutX="70.0" layoutY="19.0" promptText="&lt;Profile Name&gt;" />
+</children></AnchorPane>
+</children></FlowPane>

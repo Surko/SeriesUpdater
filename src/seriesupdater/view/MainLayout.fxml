@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<children><Accordion prefHeight="400.0" prefWidth="250.0">
+<panes>
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" text="Previous">
+<content>
+<AnchorPane minHeight="0.0" minWidth="0.0">
+<children>
+<ScrollPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+</children>
+</AnchorPane>
+</content>
+</TitledPane>
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" text="Next">
+<content>
+<AnchorPane minHeight="0.0" minWidth="0.0">
+<children>
+<ScrollPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+</children>
+</AnchorPane>
+</content>
+</TitledPane>
+<TitledPane animated="false" maxHeight="-Infinity" maxWidth="-Infinity" text="Future">
+<content>
+<AnchorPane minHeight="0.0" minWidth="0.0">
+<children>
+<ScrollPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+</children>
+</AnchorPane>
+</content>
+</TitledPane>
+</panes>
+</Accordion>
+</children></AnchorPane>

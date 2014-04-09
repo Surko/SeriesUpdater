@@ -1,0 +1,74 @@
+
+.menu-bar {
+  -fx-accent: null;  
+  -fx-background-color: #404040,
+  linear-gradient(#606060, #404040);
+}
+
+.menu-button {
+  -fx-border-width:0 0 2 0;
+  -fx-border-color: #404040;
+}
+
+.menu-button:hover {
+  -fx-border-width:0 0 2 0;
+  -fx-border-color: rgb(0,150,201);
+}
+
+.menu-button:hover > .label {
+  -fx-text-fill : rgb(0,150,201);
+}
+
+.menu-bar .label {
+  -fx-text-fill : #eeeeee;
+}
+
+.menu-item .label {
+  -fx-text-fill : #ffffff;
+}
+
+.menu-item {
+  -fx-border-width: 0 0 2 0;
+  -fx-border-color: #666666;
+  -fx-padding : 5 15 5 15;     
+}
+
+.menu-item:focused {
+  -fx-border-width: 0 0 2 0;
+  -fx-border-color: rgb(0,150,201);
+  -fx-background-color: null;
+  -fx-background-insets : 0 0 0 0;
+  -fx-background-padding : 0 0 0 0;     
+}
+.menu-item:focused > .label {  
+  -fx-text-fill: rgb(0,150,201);     
+}
+
+.context-menu {        
+    -fx-padding: 0 0 0 0;  
+    -fx-background-color: #404040,   
+        linear-gradient(#404040 0%, #232723 25%, #373837 75%, #404040 100%);        
+}
+
+.titled-pane .title {
+  -fx-color: #404040;  
+}
+
+.titled-pane {
+  -fx-text-fill: white;
+  -fx-animated : true;
+}
+
+AnchorPane {
+  -fx-background-color: #b0b0b0,
+  linear-gradient(#606060, #b0b0b0);
+}
+
+.titled-pane AnchorPane {
+  -fx-background-color: #606060;
+}
+
+.titled-pane .scroll-pane,.viewport {
+  -fx-background-color: #606060;
+}
+
